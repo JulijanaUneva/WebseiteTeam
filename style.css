@@ -1,1 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+img {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 60px;
+    padding-right: 40px;
+}
+
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+.list,
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    margin: 40px 0;
+    display: flex;
+    height: 100vh;
+
+}
+
+/*#lastchild {
+    border-radius: none;
+}*/
+
+.exterior,
+.interior,
+.furniture {
+
+    flex: 1;
+    box-sizing: border-box;
+    border-right: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.modeling {
+    flex: 1;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+div p span {
+    color: red;
+}
+
+.icons {
+    gap: 20px;
+}
