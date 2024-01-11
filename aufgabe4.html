@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
+
+
+    <script src="https://kit.fontawesome.com/18c3bedd78.js" crossorigin="anonymous"></script>
+  
+    <title>Webside Beispiel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 847px;
+            background-color: rgb(253, 251, 248);
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            background-color: black;
+            height: 100px;
+            color: white;
+            gap: 5px;
+            
+
+        }
+
+       /* .material-icons {
+            margin-right: 10px;
+        }*/
+
+        a{
+            color: white;
+            margin-right: 20px;
+        }
+
+        ul {
+            display: flex;
+            gap: 50px;
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        .fourboxes {
+            display: flex;
+            width: 100%;
+            height: 650px;
+            /*按照每个元素内容的基线对齐 ,但是却使得box4的整体向下移动了一些，如何解决?*/
+            align-items: baseline;
+        }
+
+        .box1,
+        .box2,
+        .box3
+         {
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid rgba(187, 176, 176, 0.3);
+            width: 25%;
+            height: 100%;
+            background-color: rgb(253, 251, 248);
+            justify-content: center;
+            /*box-sizing: border-box;*/
+            /* align-items: center;*/
+            margin-top: 50px;
+
+
+        }
+
+        .box4
+        {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 100%;
+            background-color: rgb(253, 251, 248);
+            justify-content: center;
+            /*box-sizing: border-box;*/
+            /* align-items: center;*/
+            margin-top: 50px;
+
+
+        }
+        h1,
+        p {
+            /*width: cover;*/
+            text-align: center;
+        }
+
+        p {
+            color: red;
+            margin-bottom: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="">
+            <li>Home</li>
+            <li>About us</li>
+            <li>Portfolio</li>
+            <li>Offer</li>
+            <li>Contact</li>
+        </ul>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a> 
+       <!-- <i class="material-icons">favorite</i>
+        <i class="material-icons">favorite</i>
+        <i class="material-icons">favorite</i>  -->
+    </nav>
+    <div class="fourboxes">
+        <div class="box1">
+            <p>01</p>
+            <h1>Exterior</h1>
+        </div>
+        <div class="box2">
+            <p>02</p>
+            <h1>Interior</h1>
+        </div>
+        <div class="box3">
+            <p>03</p>
+            <h1>Furnitur</h1>
+        </div>
+        <div class="box4">
+            <p>04</p>
+            <h1>3D <br>Modeling</h1>
+        </div>
+    </div>
+</body>
+
+</html>
+  
