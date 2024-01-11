@@ -1,1 +1,60 @@
+header {
+  height: 100px;
+  background-color: #000;
+}
 
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+main {
+  background-color: rgb(245, 239, 231);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.teil1,
+.teil2,
+.teil3,
+.teil4 {
+  width: 25%;
+  border-right: 2px solid rgb(247, 224, 195)
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+
+.zahl {
+  font-size: 15px;
+  color: red;
+}
+
+main p {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  
+}
+
+/*main:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    height: calc(80% - 100px);
+    width: 2px;
+    background-color: rgb(236, 209, 172);
+    right: -5px;
+    top: 5px;
+    
+}
+*/
+ 
