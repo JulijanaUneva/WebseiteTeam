@@ -3,6 +3,13 @@ header {
   background-color: #000;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -23,14 +30,7 @@ main {
 .teil3,
 .teil4 {
   width: 25%;
-  border-right: 2px solid rgb(247, 224, 195)
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  height: 100%;
+  border-right: 2px solid rgb(247, 224, 195);
 }
 
 .zahl {
@@ -43,7 +43,6 @@ main p {
   display: flex;
   justify-content: center;
   font-weight: 700;
-  
 }
 
 /*main:not(:last-child)::after {
@@ -57,4 +56,3 @@ main p {
     
 }
 */
- 
