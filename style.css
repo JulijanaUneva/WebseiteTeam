@@ -17,7 +17,7 @@ a {
   margin-right: 30px;
 }
 
-main {
+.content {
   background-color: rgb(245, 239, 231);
   display: flex;
   height: 100vh;
@@ -31,6 +31,7 @@ main {
 .teil4 {
   width: 25%;
   border-right: 2px solid rgb(247, 224, 195);
+  height: 500px;
 }
 
 .zahl {
@@ -38,7 +39,7 @@ main {
   color: rgb(233, 92, 92);
 }
 
-main p {
+.content p {
   font-size: 30px;
   display: flex;
   justify-content: center;
